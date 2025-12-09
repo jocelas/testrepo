@@ -1,8 +1,40 @@
 # Testing package
 
 Usage:
-1. make sure you have *venv*: `sudo apt install python3-venv`
-2. initialize venv: `python3 -m venv .venv`
-3. actiavate it: `source .venv/bin/activate`
-4. install necessary packages using `pip install -e .`
-5. try the implemented notebook
+1. make sure you have **venv**:
+<div style="position: relative;">
+    <button onclick="navigator.clipboard.writeText(this.nextElementSibling.innerText)"
+                    style="position: absolute; right: 0; top: 0;">
+        Copy
+    </button>
+    <pre><code>sudo apt install python3-venv</code></pre>
+</div>
+
+2. initialize venv:
+<div style="position: relative;">
+    <button onclick="navigator.clipboard.writeText(this.nextElementSibling.innerText)"
+                    style="position: absolute; right: 0; top: 0;">
+        Copy
+    </button>
+    <pre><code>python3 -m venv .venv</code></pre>
+</div>
+
+3. activate it:
+<div style="position: relative;">
+    <button onclick="navigator.clipboard.writeText(this.nextElementSibling.innerText)"
+                    style="position: absolute; right: 0; top: 0;">
+        Copy
+    </button>
+    <pre><code>source .venv/bin/activate</code></pre>
+</div>
+
+4. install necessary packages using:
+<div style="position: relative;">
+    <button onclick="navigator.clipboard.writeText(this.nextElementSibling.innerText)"
+                    style="position: absolute; right: 0; top: 0;">
+        Copy
+    </button>
+    <pre><code>pip install -e .</code></pre>
+</div>
+
+5. try the testing notebook `testing.ipynb`
